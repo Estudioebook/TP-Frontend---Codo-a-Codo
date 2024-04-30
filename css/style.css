@@ -43,6 +43,61 @@ footer div {
 
 .cabezal{
    width: 100%;
-   backgroud-color: #909090;
+   background-color: #cdb0d5;
+   height: 5em;
+   padding-top: 3.5em;
+   vertical-align: middle;
+}
+
+.cabezal p{
+    vertical-align: middle;
+ }
+
+
+/* Estilos de texto */
+i, em {
+	font-style: italic;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+.center{
+	text-align: center;
 
 }
+
+p, li, td, th {
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	font-family: serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	text-indent: 1em;
+	hyphens: auto;
+	-epub-hyphens: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+	text-align: left;
+	margin-left: 0;
+	text-indent: 0;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  
